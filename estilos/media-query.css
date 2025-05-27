@@ -1,0 +1,51 @@
+/* Typical device breakpoints:
+
+pequenas telas: até 600px
+celular : de 600px até 768px
+tablet: de 768px até 992px
+pc e notebook: de 992px até 1200px
+grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login {
+        width: 80vw;
+    }
+
+    #imagem {
+        float: left; /* Divide essa parte do bloco pra esquerda. Talvez funcione somente com display block */
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;/* Divide essa parte do bloco pra direita. Talvez funcione somente com display block */
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login {
+        width: 950px; /* limite até onde cresce pra nao ficar gigante e feio */
+    }
+
+    #imagem {
+        float: left; 
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+}
