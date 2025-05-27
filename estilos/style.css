@@ -67,12 +67,29 @@ main {
     width: 100%;
     height: 40px;
     background-color: #5f2c82;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 label {
     display: none;
+}
+
+.campo span {
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.campo input {
+    font-size: 1em;
+    width: calc(100% - 47px); /* subtraçao para fazer caber campo dentro de outro*/
+    height: 95%;
+    transform: translateY(-10px);
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px;
+    
 }
 
 form > input[type=submit] {

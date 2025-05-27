@@ -15,6 +15,7 @@ grandes telas: acima de 1200px
 
     #login {
         width: 80vw;
+        height: 310px;
     }
 
     #imagem {
@@ -26,6 +27,7 @@ grandes telas: acima de 1200px
     #formulario {
         float: right;/* Divide essa parte do bloco pra direita. Talvez funcione somente com display block */
         width: 70%;
+        margin: 10px 0px;
     }
 }
 
@@ -36,6 +38,7 @@ grandes telas: acima de 1200px
 
     #login {
         width: 950px; /* limite até onde cresce pra nao ficar gigante e feio */
+        height: 380px;
     }
 
     #imagem {
@@ -54,6 +57,7 @@ grandes telas: acima de 1200px
     }
 
     #formulario p {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin: 10px 0px;
     }
 }
