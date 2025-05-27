@@ -40,10 +40,10 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     border-radius: 20px;
-
+    
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -85,11 +85,10 @@ label {
     font-size: 1em;
     width: calc(100% - 47px); /* subtraçao para fazer caber campo dentro de outro*/
     height: 95%;
-    transform: translateY(-10px);
     border-radius: 8px;
     border: 0px;
     padding: 4px;
-    
+    transform: translateY(-10px);
 }
 
 form > input[type=submit] {
